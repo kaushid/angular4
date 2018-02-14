@@ -1,9 +1,17 @@
 @import './_base.scss';
+@import "../assets/bootstrap-sass/variables";
+@import '~bootstrap-sass/assets/stylesheets/_bootstrap';
 @import './_mixins.scss';
 @font-face {
     font-family: 'CenturyGothic';
     src: url('../assets/fonts/Century/CenturyGothic.eot');
     src: local('CenturyGothic'), url('../assets/fonts/Century/CenturyGothic.woff') format('woff'), url('../assets/fonts/Century/CenturyGothic.ttf') format('truetype');
+}
+
+*{
+    padding:0px;
+    margin:0px;
+    box-sizing: border-box;
 }
 
 html {
