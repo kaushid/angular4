@@ -1,0 +1,17 @@
+@import './_base.scss';
+@import './_mixins.scss';
+@font-face {
+    font-family: 'CenturyGothic';
+    src: url('../assets/fonts/Century/CenturyGothic.eot');
+    src: local('CenturyGothic'), url('../assets/fonts/Century/CenturyGothic.woff') format('woff'), url('../assets/fonts/Century/CenturyGothic.ttf') format('truetype');
+}
+
+html {
+    height: 100%;
+    font-size: $font-default;
+}
+
+body {
+    min-height: 100%;
+    font-family: $font-centurygothic;
+}

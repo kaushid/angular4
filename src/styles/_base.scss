@@ -1,0 +1,22 @@
+/* Media Variables */
+$media-xlg : 1920px;
+$media-lg : 1440px;
+$media-md : 1024px;
+$media-sm : 768px;
+$media-xs : 375px;
+$media-xxs : 320px;
+
+
+//font sizes
+$base-font : 14px;
+$font-default : $base-font;
+$font-sm : $font-default - 2px;
+$font-xs : $font-default - 4px;
+$font-md : $font-default + 2px;
+$font-lg : $font-default + 4px;
+$font-xlg : $font-default + 12px;
+
+//font family
+$font-centurygothic : CenturyGothic;
+
+
